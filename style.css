@@ -15,8 +15,17 @@ h1, h2, h3, h4, h5, h6{
     color: #008493;
     font-weight: bold;
 }
+.clear{
+    clear: both;
+}
 hr{
     border: 3px solid black;
+    max-width: 100%;
+    border-bottom: none;
+    margin: 20px auto;
+}
+.common-hr{
+    border: 1px solid black;
     max-width: 100%;
     border-bottom: none;
     margin: 20px auto;
@@ -47,6 +56,66 @@ hr{
     color: tomato;
 }
 /* header section ends */
-.clear{
-    clear: both;
+
+/* personal section starts */
+.left-div{
+    width: 30%;
+    float: left;
+    margin-left: 10px;
 }
+.right-div{
+    width: 70%;
+    float: right;
+    color: teal;
+    font-weight: bold;
+    font-size: 18px;
+    
+    
+}
+.left{
+    width: 60%;
+    float: left;
+  
+}
+.right{
+    width: 40%;
+    float: left;
+   
+}
+/* personal section ends */
+
+.para{
+    text-align: justify;
+    margin-right: 20px;
+    font-weight: 600;
+
+}
+
+/* footer starts here */
+footer{
+    background-color: black;
+    height: 80px;
+    max-width: 100%;
+    margin-top: -21px;
+    text-align: center;
+    padding: 15px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    border-right: 1px solid #605B5B;
+    border-left: 1px solid #2B2A2A;
+    
+}
+footer a:hover{
+    background-color: orange;
+}
+footer p{
+    color: white;
+    font-size: 18px;
+    margin-top: 25px;
+    padding: 10px;
+}
+/* footer ends here */
